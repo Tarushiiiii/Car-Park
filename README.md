@@ -1,23 +1,26 @@
-<h1>Car-Park</h1>
-This is an OpenCV-based project designed to detect and locate empty parking slots using image processing techniques.
-<br>
-<br>
+# Car-Park 🚗
 
-<h2>Features</h2>
-<li>
-  <ul>Utilizes OpenCV for image analysis.</ul>
-  <ul>Detects vacant parking spaces from input images.</ul>
-  <ul>Provides visual representation of parking slot occupancy.</ul>
-</li>
-<br>
-<h2>Installation</h2>
-<li>
-  <ol>Clone the repository:</ol>
-    <p>git clone https://github.com/Tarushiiiii/Car-Park.git
-<br> cd Car-Park
-</p>
+An OpenCV-based project to detect and locate empty parking slots using image processing techniques.
+
+---
+
+## ✨ Features
+
+- Utilizes OpenCV for image analysis.
+- Detects vacant parking spaces from input images.
+- Provides visual representation of parking slot occupancy.
+
+---
+
+## 🔧 Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Tarushiiiii/Car-Park.git
+   cd Car-Park
+
   
-</li>
 Clone the repository:
 
 bash
