@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Empty Spaces</title>
+</head>
+<body>
+    <h1>Track Empty Spaces</h1>
+
+    <h3>Process Image</h3>
+    <input type="file" id="imageInput" accept="image/*">
+    <button id="processImageButton">Process Image</button>
+    <div id="imageResult"></div>
+
+    <h3>Process Video</h3>
+    <input type="file" id="videoInput" accept="video/*">
+    <button id="processVideoButton">Process Video</button>
+    <div id="videoResult"></div>
+
+    <script>
+        document.getElementById("processImageButton").addEventListener("click", function() {
+            const imageFile = document.getElementById('imageInput').files[0];
+            const formData = new FormData();
+            formData.append('image_filename', imageFile.name); // Pass the image filename
+            
+            fetch('/process_image', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('imageResult').innerText = data.result;
+            })
+            .catch(error => console.error('Error:', error));
+        });
+
+        document.getElementById("processVideoButton").addEventListener("click", function() {
+            const videoFile = document.getElementById('videoInput').files[0];
+            const formData = new FormData();
+            formData.append('video_filename', videoFile.name); // Pass the video filename
+            
+            fetch('/process_video', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('videoResult').innerText = data.result;
+            })
+            .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
+</html>
