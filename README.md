@@ -50,9 +50,9 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 ---
 
 ## Social 🔗
-1. [LinkedIn](https://www.linkedin.com/in/tarushi-agarwal-ba0a5a325/)
-2. [Github](https://github.com/Tarushiiiii)
-3. [Unstop](https://unstop.com/u/tarusaga8714)
+- [LinkedIn](https://www.linkedin.com/in/tarushi-agarwal-ba0a5a325/)
+- [Github](https://github.com/Tarushiiiii)
+- [Unstop](https://unstop.com/u/tarusaga8714)
 
 --- 
 ---
