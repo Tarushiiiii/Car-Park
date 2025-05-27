@@ -20,33 +20,18 @@ An OpenCV-based project to detect and locate empty parking slots using image pro
    git clone https://github.com/Tarushiiiii/Car-Park.git
    cd Car-Park
 
-  
-Clone the repository:
+2. **Install the required dependencies:**
 
-bash
-Copy
-Edit
-git clone https://github.com/Tarushiiiii/Car-Park.git
-cd Car-Park
-Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Usage
-Ensure you have the necessary images or video feed for analysis.
+## 🚀 Usage
 
-Run the main script:
+1. Ensure you have the necessary images or video feed for analysis.
+2. Run the main script:
+   ```bash
+   python main.py
+3. The program will process the input and display the parking lot with highlighted vacant slots.
 
-bash
-Copy
-Edit
-python main.py
-The program will process the input and display the parking lot with highlighted vacant slots.
-
-Contributing
+## 🤝 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
