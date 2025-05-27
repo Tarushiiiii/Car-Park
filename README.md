@@ -41,12 +41,19 @@ An OpenCV-based project to detect and locate empty parking slots using image pro
 
 The main idea was taken from: [YouTube](https://www.youtube.com/watch?v=caKnQlCMIYI&t=1603s&pp=ygUHY2FyUGFyaw%3D%3D)
 
---
+---
 
 ## Contributing 🤝 
+
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+
+---
 
 ## Social 🔗
 1. [LinkedIn](https://www.linkedin.com/in/tarushi-agarwal-ba0a5a325/)
 2. [Github](https://github.com/Tarushiiiii)
 3. [Unstop](https://unstop.com/u/tarusaga8714)
+
+--- 
+---
+
